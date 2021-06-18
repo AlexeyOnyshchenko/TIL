@@ -23,3 +23,16 @@ access_token=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded"
 echo $access_token
 
 curl -X GET http://localhost:8000/image  -H "Accept: application/json" -H "Authorization: Bearer ${access_token}" -o $2
+
+
+------------------------------------------------------------------------------------------
+
+Hello there! 
+Today I accomplished the 3rd test task for the Automated testing course learning: 
+
+- How to install and use PICT tool
+- Learned some syntax of PICT
+- Refreshed knowledge of test design 
+- Refreshed knowledge of modern QA Qutomation tools
+
+Output data files attached
