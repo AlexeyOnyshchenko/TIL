@@ -1,0 +1,85 @@
+Application type: Web, Mobile Native, Hybrid
+Mobile Platform: iOS, Android, N/A
+Browser: Chrome, Firefox, Safari, N/A
+Programming language: Java, JS, Python, Swift, C#
+Unit Framework: TestNG, JUnit, Mocha, Jest, Jasmine, PyTest, Unittest, Nose2, N/A
+Web Framework: Selenide, Serenity, WebdriverIO, Cypress, CodeceptJS, Puppeteer, Playwrite, Helium, N/A
+Mobile Framework: Appium, Espresso, XCUITest, Detox, Xamarin, N/A
+Infrastructure: Selenium Grid, Selenoid
+
+
+IF [Application type] = "Web" THEN [Mobile Platform] <> "iOS";
+IF [Application type] = "Web" THEN [Mobile Platform] <> "Android";
+
+IF [Application type] = "Web" THEN [Programming Language] <> "Swift";
+IF [Application type] = "Web" THEN [Mobile Framework] <> "Appium";
+IF [Application type] = "Web" THEN [Mobile Framework] <> "Espresso";
+IF [Application type] = "Web" THEN [Mobile Framework] <> "XCUITest";
+IF [Application type] = "Web" THEN [Mobile Framework] <> "Detox";
+IF [Application type] = "Web" THEN [Mobile Framework] <> "Xamarin";
+
+
+
+
+IF [Application type] = "Mobile Native" THEN [Mobile platform] <> "N/A";
+IF [Application type] = "Mobile Native" THEN [Browser] <> "Chrome";
+IF [Application type] = "Mobile Native" THEN [Browser] <> "Firefox";
+IF [Application type] = "Mobile Native" THEN [Browser] <> "Safari";
+
+IF [Application type] = "Mobile Native" THEN [Programming language] <> "JS";
+
+IF [Application type] = "Mobile Native" THEN [Programming language] <> "Python";
+
+IF [Application type] = "Mobile Native" THEN [Programming language] <> "C#";
+
+IF [Application type] = "Mobile Native" THEN [Unit Framework] <> "TestNG";
+IF [Application type] = "Mobile Native" THEN [Unit Framework] <> "JUnit";
+IF [Application type] = "Mobile Native" THEN [Unit Framework] <> "Mocha";
+IF [Application type] = "Mobile Native" THEN [Unit Framework] <> "Jest";
+IF [Application type] = "Mobile Native" THEN [Unit Framework] <> "Jasmine";
+IF [Application type] = "Mobile Native" THEN [Unit Framework] <> "PyTest";
+IF [Application type] = "Mobile Native" THEN [Unit Framework] <> "Unittest";
+IF [Application type] = "Mobile Native" THEN [Unit Framework] <> "Nose2";
+
+IF [Application type] = "Mobile Native" THEN [Web Framework] <> "Selenide";
+IF [Application type] = "Mobile Native" THEN [Web Framework] <> "Serenity";
+IF [Application type] = "Mobile Native" THEN [Web Framework] <> "WebdriverIO";
+IF [Application type] = "Mobile Native" THEN [Web Framework] <> "Cypress";
+IF [Application type] = "Mobile Native" THEN [Web Framework] <> "CodeceptJS";
+IF [Application type] = "Mobile Native" THEN [Web Framework] <> "Puppeteer";
+IF [Application type] = "Mobile Native" THEN [Web Framework] <> "Playwrite";
+IF [Application type] = "Mobile Native" THEN [Web Framework] <> "Helium";
+
+IF [Application type] = "Mobile Native" THEN [Mobile Framework] <> "N/A";
+
+
+IF [Application type] = "Mobile Native" THEN [Infrastructure] <> "Selenium Grid";
+
+
+IF [Application type] = "Hybrid" THEN [Programming language] <> "Python";
+IF [Application type] = "Hybrid" THEN [Programming language] <> "C#";
+IF [Application type] = "Hybrid" THEN [Programming language] <> "Java";
+IF [Application type] = "Hybrid" THEN [Programming language] <> "Swift";
+
+IF [Application type] = "Hybrid" THEN [Unit Framework] <> "TestNG";
+IF [Application type] = "Hybrid" THEN [Unit Framework] <> "JUnit";
+IF [Application type] = "Hybrid" THEN [Unit Framework] <> "Mocha";
+IF [Application type] = "Hybrid" THEN [Unit Framework] <> "Jest";
+IF [Application type] = "Hybrid" THEN [Unit Framework] <> "Jasmine";
+IF [Application type] = "Hybrid" THEN [Unit Framework] <> "PyTest";
+IF [Application type] = "Hybrid" THEN [Unit Framework] <> "Unittest";
+IF [Application type] = "Hybrid" THEN [Unit Framework] <> "Nose2";
+
+IF [Application type] = "Hybrid" THEN [Web Framework] <> "Selenide";
+IF [Application type] = "Hybrid" THEN [Web Framework] <> "Serenity";
+IF [Application type] = "Hybrid" THEN [Web Framework] <> "WebdriverIO";
+IF [Application type] = "Hybrid" THEN [Web Framework] <> "Cypress";
+IF [Application type] = "Hybrid" THEN [Web Framework] <> "CodeceptJS";
+IF [Application type] = "Hybrid" THEN [Web Framework] <> "Puppeteer";
+IF [Application type] = "Hybrid" THEN [Web Framework] <> "Playwrite";
+IF [Application type] = "Hybrid" THEN [Web Framework] <> "Helium";
+
+IF [Application type] = "Hybrid" THEN [Mobile Framework] <> "Espresso";
+IF [Application type] = "Hybrid" THEN [Mobile Framework] <> "XCUITest";
+IF [Application type] = "Hybrid" THEN [Mobile Framework] <> "Detox";
+IF [Application type] = "Hybrid" THEN [Mobile Framework] <> "N/A";
